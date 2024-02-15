@@ -1,0 +1,36 @@
+table{
+    width: 100%; /*lo utilizamos para ensanchar la tabla al peorcentaje que queramos, en este caso como es al 100, ocupará todo el ancho de página*/
+    text-align:center; /*lo usamos para aliniar el texto de una manera específica, en este caso al centro*/
+    border: 1px solid black;   /*indicamos el tipo de borde y el grossor que tendrá el borde de la tabla*/
+    border-collapse: collapse;   /*lo utilizamos para poner los bordes combinados, mejorando así la estética de ellos, ya que si no en algún caso puede haber un doble borde*/
+}
+th, td{
+    line-height: 3;
+}   
+.M4 {
+    background-color: azure; /*usamos el background-color para añadir un color de fondo específico, en este caso en las celdas de classe M4*/
+}
+.M7 {
+    background-color: bisque;
+}
+.M8 {
+    background-color: brown;
+}
+.Patio {
+    background-color: cyan;
+}
+.M12 {
+    background-color: peru;
+}
+.M6 {
+    background-color: cornflowerblue;
+}
+.tutoria {
+    background-color: greenyellow;
+}
+.nada{
+    background-color: grey;
+}
+.M11 {
+    background-color: pink;
+}
